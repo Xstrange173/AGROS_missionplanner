@@ -1,0 +1,63 @@
+{
+  "mission_id": "AGRI_MISSION_001",
+  "scan_drone": {
+    "vehicle_id": "SCAN_DRONE_01",
+    "mission_time": "2026-01-01T18:28:51.648299Z",
+    "detections": [
+      {
+        "id": "PLANT_001",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.019,
+        "timestamp": "2026-01-01T18:29:13.311045Z",
+        "image": "detections\\PLANT_001.jpg"
+      },
+      {
+        "id": "PLANT_002",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.082,
+        "timestamp": "2026-01-01T18:29:15.374315Z",
+        "image": "detections\\PLANT_002.jpg"
+      },
+      {
+        "id": "PLANT_003",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-01T18:30:49.143099Z",
+        "image": "detections\\PLANT_003.jpg"
+      },
+      {
+        "id": "PLANT_003",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-01T18:30:49.143603Z",
+        "image": "detections\\PLANT_003.jpg"
+      },
+      {
+        "id": "PLANT_005",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.083,
+        "timestamp": "2026-01-01T18:30:51.415170Z",
+        "image": "detections\\PLANT_005.jpg"
+      },
+      {
+        "id": "PLANT_005",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.083,
+        "timestamp": "2026-01-01T18:30:51.415170Z",
+        "image": "detections\\PLANT_005.jpg"
+      }
+    ]
+  }
+}

@@ -6,6 +6,7 @@ import cv2
 import mission_generator
 from threading import Thread
 import time
+from PIL import Image, ImageTk
 
 # Import Scanner
 try:
@@ -49,6 +50,28 @@ class MissionAGROSGUI:
         if self.scanner:
              self.scanner.set_connection_string(self.connection_string_var.get())
         
+        # Color Presets (H_min, S_min, V_min, H_max, S_max, V_max)
+        self.presets = {
+            "Yellow (Plant)": (20, 80, 80, 35, 255, 255),
+            "Green (Weed)": (35, 40, 40, 85, 255, 255),
+            "Red (Infected)": (0, 70, 50, 10, 255, 255),
+            "Blue (Marker)": (100, 150, 0, 140, 255, 255),
+            "Custom/Palette": None
+        }
+
+        self.palette_colors = [
+            {"name": "Bright Green (Healthy)", "hsv": (40, 100, 100, 80, 255, 255)},
+            {"name": "Dark Green (Forest)", "hsv": (35, 50, 20, 70, 255, 150)},
+            {"name": "Olive (Dry)", "hsv": (25, 40, 40, 50, 150, 200)},
+            {"name": "Brown (Soil)", "hsv": (10, 50, 20, 20, 255, 150)},
+            {"name": "Sandy (Dry Soil)", "hsv": (15, 30, 100, 25, 100, 250)},
+            {"name": "Light Yellow (New)", "hsv": (20, 150, 150, 30, 255, 255)},
+            {"name": "Orange (Disease)", "hsv": (10, 150, 150, 20, 255, 255)},
+            {"name": "Pink (Flower)", "hsv": (140, 50, 100, 170, 255, 255)},
+            {"name": "Purple (Markers)", "hsv": (120, 50, 50, 150, 255, 255)},
+            {"name": "Sky Blue (Water)", "hsv": (90, 50, 50, 110, 255, 255)},
+        ]
+        
         # === Header ===
         header_frame = ttk.Frame(root, padding="10")
         header_frame.pack(fill=tk.X)
@@ -79,11 +102,18 @@ class MissionAGROSGUI:
         self.frame_scan = ttk.Frame(notebook)
         notebook.add(self.frame_scan, text="Live Vision System")
         self._init_scanning_tab(self.frame_scan)
+
+        # TAB 3: COLOR PALETTE
+        self.frame_palette = ttk.Frame(notebook)
+        notebook.add(self.frame_palette, text="Color Reference")
+        self._init_palette_tab(self.frame_palette)
         
-        # TAB 3: SETTINGS
+        # TAB 4: SETTINGS
         self.frame_settings = ttk.Frame(notebook)
         notebook.add(self.frame_settings, text="Settings")
         self._init_settings_tab(self.frame_settings)
+        
+        self.notebook = notebook # Save for switching
         
         # === Log Window (Bottom) ===
         log_frame = ttk.LabelFrame(root, text="System Log", padding="5")
@@ -307,6 +337,13 @@ class MissionAGROSGUI:
         # Right: Calibration Controls
         calib_frame = ttk.LabelFrame(scan_pane, text="HSV Calibration", padding="10")
         scan_pane.add(calib_frame, weight=1)
+
+        # Presets Selection
+        ttk.Label(calib_frame, text="Color Preset:", font=("Arial", 9, "bold")).pack(fill=tk.X, pady=(0, 5))
+        self.preset_combo = ttk.Combobox(calib_frame, values=list(self.presets.keys()), state="readonly")
+        self.preset_combo.current(0) # Default Yellow
+        self.preset_combo.pack(fill=tk.X, pady=(0, 10))
+        self.preset_combo.bind("<<ComboboxSelected>>", self.apply_preset)
         
         # Sliders
         self.h_min = self._create_slider(calib_frame, "H Min", 0, 179, 20)
@@ -318,6 +355,79 @@ class MissionAGROSGUI:
         self.h_max = self._create_slider(calib_frame, "H Max", 0, 179, 35)
         self.s_max = self._create_slider(calib_frame, "S Max", 0, 255, 255)
         self.v_max = self._create_slider(calib_frame, "V Max", 0, 255, 255)
+
+    def apply_preset(self, event=None):
+        name = self.preset_combo.get()
+        if name == "Custom/Palette":
+            self.notebook.select(self.frame_palette)
+            return
+
+        vals = self.presets.get(name)
+        if not vals: return
+
+        self.h_min.set(vals[0])
+        self.s_min.set(vals[1])
+        self.v_min.set(vals[2])
+        self.h_max.set(vals[3])
+        self.s_max.set(vals[4])
+        self.v_max.set(vals[5])
+        self.update_hsv()
+
+    def _init_palette_tab(self, parent):
+        container = ttk.Frame(parent, padding="20")
+        container.pack(fill=tk.BOTH, expand=True)
+
+        ttk.Label(container, text="Visual Color Reference Palette", font=("Helvetica", 14, "bold")).pack(pady=(0, 10))
+        ttk.Label(container, text="Click a color block to apply its HSV range to the scanner.", foreground="gray").pack(pady=(0, 20))
+
+        grid_frame = ttk.Frame(container)
+        grid_frame.pack(fill=tk.BOTH, expand=True)
+
+        import colorsys
+        def hsv_to_hex(h, s, v):
+            # Tkinter/Colorsys needs normalized 0-1
+            r, g, b = colorsys.hsv_to_rgb(h/180.0, s/255.0, v/255.0)
+            return '#%02x%02x%02x' % (int(r*255), int(g*255), int(b*255))
+
+        cols = 4
+        for i, item in enumerate(self.palette_colors):
+            r = i // cols
+            c = i % cols
+            
+            # Simple Frame with Canvas for color
+            card = ttk.Frame(grid_frame, padding="5", style="Card.TFrame")
+            card.grid(row=r, column=c, padx=10, pady=10, sticky="nsew")
+            
+            # Use mid-point of min/max for display color
+            h = (item["hsv"][0] + item["hsv"][3]) / 2
+            s = (item["hsv"][1] + item["hsv"][4]) / 2
+            v = (item["hsv"][2] + item["hsv"][5]) / 2
+            color_hex = hsv_to_hex(h, s, v)
+
+            canvas = tk.Canvas(card, width=100, height=60, bg=color_hex, highlightthickness=1, highlightbackground="black")
+            canvas.pack(pady=5)
+            
+            lbl = ttk.Label(card, text=item["name"], font=("Arial", 9, "bold"))
+            lbl.pack()
+
+            # Bind click
+            def make_callback(hsv):
+                return lambda e: self.apply_palette_entry(hsv)
+            
+            canvas.bind("<Button-1>", make_callback(item["hsv"]))
+            lbl.bind("<Button-1>", make_callback(item["hsv"]))
+
+    def apply_palette_entry(self, hsv_vals):
+        self.log(f"[PALETTE] Applied reference color: {hsv_vals}")
+        self.h_min.set(hsv_vals[0])
+        self.s_min.set(hsv_vals[1])
+        self.v_min.set(hsv_vals[2])
+        self.h_max.set(hsv_vals[3])
+        self.s_max.set(hsv_vals[4])
+        self.v_max.set(hsv_vals[5])
+        self.update_hsv()
+        self.preset_combo.set("Custom/Palette")
+        self.notebook.select(self.frame_scan)
 
     def _create_slider(self, parent, label, min_val, max_val, default):
         frame = ttk.Frame(parent)
@@ -397,16 +507,15 @@ class MissionAGROSGUI:
                  resized = cv2.resize(frame, (new_w, new_h))
                  rgb = cv2.cvtColor(resized, cv2.COLOR_BGR2RGB)
                  
-                 # PPM Encode trick
-                 _, buffer = cv2.imencode('.ppm', rgb)
-                 data = buffer.tobytes()
-                 photo = tk.PhotoImage(data=data)
+                 # Optimized PIL Rendering
+                 img = Image.fromarray(rgb)
+                 photo = ImageTk.PhotoImage(image=img)
                  
                  self.live_video_label.config(image=photo, text="")
                  self.live_video_label.image = photo 
         
         # Periodic refresh loop
-        self.root.after(30, self.video_update_loop)
+        self.root.after(15, self.video_update_loop)
 
     # --- SHARED/HELPER LOGIC ---
     def load_data(self):
