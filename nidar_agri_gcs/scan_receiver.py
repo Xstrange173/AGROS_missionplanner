@@ -35,6 +35,11 @@ class Scanner:
         self.mavlink_connected = False
         self.last_heartbeat = 0
         
+        # Initial GPS state to prevent AttributeError before first update
+        self.latitude = 0.0
+        self.longitude = 0.0
+        self.altitude_rel = 0.0
+        
         # HSV Thresholds (Default Yellow)
         self.hsv_min = np.array([20, 80, 80])
         self.hsv_max = np.array([35, 255, 255])
