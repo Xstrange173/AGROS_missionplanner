@@ -17,6 +17,8 @@ class Scanner:
         self.cap = None
         self.master = None
         self.current_frame = None
+        self.display_frame = None
+        self.frame_id = 0
         self.detection_id = 1
         
         self.connection_string = connection_string
@@ -235,7 +237,19 @@ class Scanner:
                     label = f"ID: PLANT_{self.detection_id:03d}"
                     cv2.putText(frame, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
             
-            self.current_frame = frame # Update for GUI
+            # Prepare display frame for GUI (Offload from Main Thread)
+            try:
+                h, w = frame.shape[:2]
+                disp_w, disp_h = 640, 480
+                scale = min(disp_w/w, disp_h/h)
+                new_w, new_h = int(w*scale), int(h*scale)
+                resized = cv2.resize(frame, (new_w, new_h))
+                self.display_frame = cv2.cvtColor(resized, cv2.COLOR_BGR2RGB)
+                self.frame_id += 1
+            except Exception as e:
+                print(f"[WARN] Frame conversion failed: {e}")
+
+            self.current_frame = frame # Raw frame for capture logic
             
             # Save Logic
             if detected:

@@ -45,10 +45,10 @@ class MissionAGROSGUI:
         style = ttk.Style()
         style.theme_use('clam')
         
-        # Default Config
-        self.connection_string_var = tk.StringVar(value="udp:127.0.0.1:14551")
         if self.scanner:
              self.scanner.set_connection_string(self.connection_string_var.get())
+        
+        self.last_frame_id = -1
         
         # Color Presets (Focused on Yellow Plant)
         self.presets = {
@@ -406,37 +406,27 @@ class MissionAGROSGUI:
         self.live_video_label.config(text="Camera Offline")
 
     def video_update_loop(self):
-        # Update MAVLink Status
-        if self.scanner:
-            if self.scanner.mavlink_connected:
-                self.lbl_mav_status.config(text="CONNECTED", foreground="green")
-            else:
-                self.lbl_mav_status.config(text="DISCONNECTED", foreground="red")
+         # Update MAVLink Status
+         if self.scanner:
+             if self.scanner.mavlink_connected:
+                 self.lbl_mav_status.config(text="CONNECTED", foreground="green")
+             else:
+                 self.lbl_mav_status.config(text="DISCONNECTED", foreground="red")
 
-        if self.scanner and self.scanner.running:
-             frame = self.scanner.current_frame
-             if frame is not None:
-                 # Resize for display
-                 h, w = frame.shape[:2]
-                 # Fixed display siz
-                 disp_w, disp_h = 640, 480
-                 scale = min(disp_w/w, disp_h/h)
-                 new_w, new_h = int(w*scale), int(h*scale)
-                 
-                 resized = cv2.resize(frame, (new_w, new_h))
-                 rgb = cv2.cvtColor(resized, cv2.COLOR_BGR2RGB)
-                 
-                 # Optimized PIL Rendering
-                 img = Image.fromarray(rgb)
-                 photo = ImageTk.PhotoImage(image=img)
-                 
-                 self.live_video_label.config(image=photo, text="")
-                 self.live_video_label.image = photo 
-        
-        # Periodic refresh loop
-        self.root.after(15, self.video_update_loop)
+         if self.scanner and self.scanner.running:
+              # Sync with background processing
+              current_id = getattr(self.scanner, 'frame_id', 0)
+              if current_id != self.last_frame_id:
+                   frame_rgb = getattr(self.scanner, 'display_frame', None)
+                   if frame_rgb is not None:
+                        img = Image.fromarray(frame_rgb)
+                        photo = ImageTk.PhotoImage(image=img)
+                        self.live_video_label.config(image=photo, text="")
+                        self.live_video_label.image = photo
+                        self.last_frame_id = current_id
 
-    # --- SHARED/HELPER LOGIC ---
+         # Periodic refresh loop - 25ms (~40 FPS)
+         self.root.after(25, self.video_update_loop)
     def load_data(self):
         # Trigger reconnection if disconnected
         if self.scanner and not self.scanner.mavlink_connected:
