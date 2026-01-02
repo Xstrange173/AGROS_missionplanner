@@ -64,7 +64,17 @@ class MissionAGROSGUI:
         # Connection Status in Header
         status_frame = ttk.Frame(header_frame)
         status_frame.pack(side=tk.RIGHT)
-        ttk.Label(status_frame, text="MAVLink Status:").pack(side=tk.LEFT, padx=5)
+        
+        # GPS Status
+        self.lbl_gps = ttk.Label(status_frame, text="GPS: --", font=("Arial", 10, "bold"), foreground="gray")
+        self.lbl_gps.pack(side=tk.LEFT, padx=5)
+        
+        self.lbl_sats = ttk.Label(status_frame, text="Sats: --", font=("Arial", 10, "bold"), foreground="gray")
+        self.lbl_sats.pack(side=tk.LEFT, padx=5)
+
+        ttk.Label(status_frame, text="|").pack(side=tk.LEFT, padx=5)
+
+        ttk.Label(status_frame, text="MAVLink:").pack(side=tk.LEFT, padx=5)
         self.lbl_mav_status = ttk.Label(status_frame, text="CONNECTED" if (self.scanner and self.scanner.mavlink_connected) else "DISCONNECTED", 
                                        font=("Arial", 10, "bold"), foreground="red")
         self.lbl_mav_status.pack(side=tk.LEFT, padx=5)
@@ -289,7 +299,7 @@ class MissionAGROSGUI:
         
         # Camera Selector
         ttk.Label(ctrl_frame, text="Cam Input:").pack(side=tk.LEFT, padx=5)
-        self.cam_combo = ttk.Combobox(ctrl_frame, values=["0", "1", "2", "3", "4"], width=3, state="readonly")
+        self.cam_combo = ttk.Combobox(ctrl_frame, values=["0 (Webcam/Internal)", "1 (USB2 Cam)", "2 (USB3 Cam)", "3", "4"], width=20, state="readonly")
         self.cam_combo.current(0)
         self.cam_combo.pack(side=tk.LEFT, padx=5)
         
@@ -377,8 +387,9 @@ class MissionAGROSGUI:
             return
         
         try:
-            full_str = self.cam_combo.get() # "0"
-            idx = int(full_str)
+            full_str = self.cam_combo.get() # e.g. "1 (USB2 Cam)"
+            # Extract first integer
+            idx = int(full_str.split()[0])
         except:
             idx = 0
             
@@ -410,8 +421,28 @@ class MissionAGROSGUI:
          if self.scanner:
              if self.scanner.mavlink_connected:
                  self.lbl_mav_status.config(text="CONNECTED", foreground="green")
+                 
+                 # Update GPS
+                 gps = self.scanner.get_gps()
+                 if gps:
+                     fix = gps.get('fix', 0)
+                     sats = gps.get('sats', 0)
+                     
+                     fix_text = {0: "No Fix", 1: "No Fix", 2: "2D Fix", 3: "3D Fix", 4: "DGPS", 5: "RTK Float", 6: "RTK Fixed"}.get(fix, f"Fix: {fix}")
+                     
+                     self.lbl_gps.config(text=f"GPS: {fix_text}")
+                     self.lbl_sats.config(text=f"Sats: {sats}")
+                     
+                     if fix >= 3:
+                         self.lbl_gps.config(foreground="green")
+                     elif fix == 2:
+                         self.lbl_gps.config(foreground="orange")
+                     else:
+                         self.lbl_gps.config(foreground="red")
              else:
                  self.lbl_mav_status.config(text="DISCONNECTED", foreground="red")
+                 self.lbl_gps.config(text="GPS: --", foreground="gray")
+                 self.lbl_sats.config(text="Sats: --", foreground="gray")
 
          if self.scanner and self.scanner.running:
               # Sync with background processing

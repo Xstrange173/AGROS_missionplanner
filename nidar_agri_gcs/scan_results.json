@@ -2,60 +2,51 @@
   "mission_id": "AGRI_MISSION_001",
   "scan_drone": {
     "vehicle_id": "SCAN_DRONE_01",
-    "mission_time": "2026-01-01T18:28:51.648299Z",
+    "mission_time": "2026-01-02T05:46:44.472272Z",
     "detections": [
       {
         "id": "PLANT_001",
-        "latitude": 0.0,
-        "longitude": 0.0,
-        "altitude_rel": 0.0,
-        "confidence": 0.019,
-        "timestamp": "2026-01-01T18:29:13.311045Z",
+        "latitude": 10.9292006,
+        "longitude": 78.7371461,
+        "altitude_rel": 1.63,
+        "confidence": 0.035,
+        "timestamp": "2026-01-02T05:49:10.592480Z",
         "image": "detections\\PLANT_001.jpg"
       },
       {
         "id": "PLANT_002",
-        "latitude": 0.0,
-        "longitude": 0.0,
-        "altitude_rel": 0.0,
-        "confidence": 0.082,
-        "timestamp": "2026-01-01T18:29:15.374315Z",
+        "latitude": 10.929242,
+        "longitude": 78.7371153,
+        "altitude_rel": 1.529,
+        "confidence": 0.01,
+        "timestamp": "2026-01-02T05:49:18.878097Z",
         "image": "detections\\PLANT_002.jpg"
       },
       {
         "id": "PLANT_003",
-        "latitude": 0.0,
-        "longitude": 0.0,
-        "altitude_rel": 0.0,
-        "confidence": 0.011,
-        "timestamp": "2026-01-01T18:30:49.143099Z",
+        "latitude": 10.9292772,
+        "longitude": 78.7371012,
+        "altitude_rel": 1.786,
+        "confidence": 0.01,
+        "timestamp": "2026-01-02T05:49:27.549754Z",
         "image": "detections\\PLANT_003.jpg"
       },
       {
-        "id": "PLANT_003",
+        "id": "PLANT_004",
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.011,
-        "timestamp": "2026-01-01T18:30:49.143603Z",
-        "image": "detections\\PLANT_003.jpg"
+        "confidence": 0.012,
+        "timestamp": "2026-01-02T05:51:38.648854Z",
+        "image": "detections\\PLANT_004.jpg"
       },
       {
         "id": "PLANT_005",
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.083,
-        "timestamp": "2026-01-01T18:30:51.415170Z",
-        "image": "detections\\PLANT_005.jpg"
-      },
-      {
-        "id": "PLANT_005",
-        "latitude": 0.0,
-        "longitude": 0.0,
-        "altitude_rel": 0.0,
-        "confidence": 0.083,
-        "timestamp": "2026-01-01T18:30:51.415170Z",
+        "confidence": 0.028,
+        "timestamp": "2026-01-02T05:51:40.681341Z",
         "image": "detections\\PLANT_005.jpg"
       },
       {
@@ -63,8 +54,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.011,
-        "timestamp": "2026-01-01T18:39:14.290005Z",
+        "confidence": 0.039,
+        "timestamp": "2026-01-02T05:51:42.691302Z",
         "image": "detections\\PLANT_006.jpg"
       },
       {
@@ -72,8 +63,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.055,
-        "timestamp": "2026-01-01T18:41:11.435653Z",
+        "confidence": 0.026,
+        "timestamp": "2026-01-02T05:51:44.725941Z",
         "image": "detections\\PLANT_007.jpg"
       },
       {
@@ -81,8 +72,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.095,
-        "timestamp": "2026-01-01T18:41:13.499613Z",
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:51:46.751342Z",
         "image": "detections\\PLANT_008.jpg"
       },
       {
@@ -90,8 +81,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.014,
-        "timestamp": "2026-01-01T18:41:22.841909Z",
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:51:48.780819Z",
         "image": "detections\\PLANT_009.jpg"
       },
       {
@@ -99,8 +90,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.124,
-        "timestamp": "2026-01-01T18:41:24.954121Z",
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:51:50.802641Z",
         "image": "detections\\PLANT_010.jpg"
       },
       {
@@ -108,8 +99,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.011,
-        "timestamp": "2026-01-01T18:41:35.707840Z",
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:51:52.820914Z",
         "image": "detections\\PLANT_011.jpg"
       },
       {
@@ -117,8 +108,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.08,
-        "timestamp": "2026-01-01T18:41:37.803505Z",
+        "confidence": 0.023,
+        "timestamp": "2026-01-02T05:51:54.850875Z",
         "image": "detections\\PLANT_012.jpg"
       },
       {
@@ -126,8 +117,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.01,
-        "timestamp": "2026-01-01T18:44:18.041299Z",
+        "confidence": 0.021,
+        "timestamp": "2026-01-02T05:51:56.881071Z",
         "image": "detections\\PLANT_013.jpg"
       },
       {
@@ -135,8 +126,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.023,
-        "timestamp": "2026-01-01T18:46:05.998569Z",
+        "confidence": 0.02,
+        "timestamp": "2026-01-02T05:51:58.910569Z",
         "image": "detections\\PLANT_014.jpg"
       },
       {
@@ -144,8 +135,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.092,
-        "timestamp": "2026-01-01T18:46:08.031911Z",
+        "confidence": 0.02,
+        "timestamp": "2026-01-02T05:52:00.918116Z",
         "image": "detections\\PLANT_015.jpg"
       },
       {
@@ -153,8 +144,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.017,
-        "timestamp": "2026-01-01T18:46:25.592099Z",
+        "confidence": 0.02,
+        "timestamp": "2026-01-02T05:52:02.941826Z",
         "image": "detections\\PLANT_016.jpg"
       },
       {
@@ -162,8 +153,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.01,
-        "timestamp": "2026-01-01T18:47:51.984564Z",
+        "confidence": 0.02,
+        "timestamp": "2026-01-02T05:52:04.958519Z",
         "image": "detections\\PLANT_017.jpg"
       },
       {
@@ -171,8 +162,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.092,
-        "timestamp": "2026-01-01T18:47:54.112637Z",
+        "confidence": 0.02,
+        "timestamp": "2026-01-02T05:52:06.965904Z",
         "image": "detections\\PLANT_018.jpg"
       },
       {
@@ -180,8 +171,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.092,
-        "timestamp": "2026-01-01T18:47:56.144826Z",
+        "confidence": 0.019,
+        "timestamp": "2026-01-02T05:52:08.972685Z",
         "image": "detections\\PLANT_019.jpg"
       },
       {
@@ -189,8 +180,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.094,
-        "timestamp": "2026-01-01T18:47:58.192996Z",
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:52:10.987523Z",
         "image": "detections\\PLANT_020.jpg"
       },
       {
@@ -198,8 +189,8 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.088,
-        "timestamp": "2026-01-01T18:48:00.224778Z",
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:52:13.001612Z",
         "image": "detections\\PLANT_021.jpg"
       },
       {
@@ -207,9 +198,2592 @@
         "latitude": 0.0,
         "longitude": 0.0,
         "altitude_rel": 0.0,
-        "confidence": 0.093,
-        "timestamp": "2026-01-01T18:48:02.273088Z",
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:52:15.028701Z",
         "image": "detections\\PLANT_022.jpg"
+      },
+      {
+        "id": "PLANT_023",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:52:17.062354Z",
+        "image": "detections\\PLANT_023.jpg"
+      },
+      {
+        "id": "PLANT_024",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:52:19.082247Z",
+        "image": "detections\\PLANT_024.jpg"
+      },
+      {
+        "id": "PLANT_025",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:52:21.109981Z",
+        "image": "detections\\PLANT_025.jpg"
+      },
+      {
+        "id": "PLANT_026",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:52:23.124735Z",
+        "image": "detections\\PLANT_026.jpg"
+      },
+      {
+        "id": "PLANT_027",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.016,
+        "timestamp": "2026-01-02T05:52:25.146981Z",
+        "image": "detections\\PLANT_027.jpg"
+      },
+      {
+        "id": "PLANT_028",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.015,
+        "timestamp": "2026-01-02T05:52:27.182130Z",
+        "image": "detections\\PLANT_028.jpg"
+      },
+      {
+        "id": "PLANT_029",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.015,
+        "timestamp": "2026-01-02T05:52:29.194453Z",
+        "image": "detections\\PLANT_029.jpg"
+      },
+      {
+        "id": "PLANT_030",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.015,
+        "timestamp": "2026-01-02T05:52:31.207921Z",
+        "image": "detections\\PLANT_030.jpg"
+      },
+      {
+        "id": "PLANT_031",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.016,
+        "timestamp": "2026-01-02T05:52:33.221537Z",
+        "image": "detections\\PLANT_031.jpg"
+      },
+      {
+        "id": "PLANT_032",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.016,
+        "timestamp": "2026-01-02T05:52:35.258781Z",
+        "image": "detections\\PLANT_032.jpg"
+      },
+      {
+        "id": "PLANT_033",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.016,
+        "timestamp": "2026-01-02T05:52:37.292388Z",
+        "image": "detections\\PLANT_033.jpg"
+      },
+      {
+        "id": "PLANT_034",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.021,
+        "timestamp": "2026-01-02T05:52:39.305656Z",
+        "image": "detections\\PLANT_034.jpg"
+      },
+      {
+        "id": "PLANT_035",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.018,
+        "timestamp": "2026-01-02T05:52:41.338453Z",
+        "image": "detections\\PLANT_035.jpg"
+      },
+      {
+        "id": "PLANT_036",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.015,
+        "timestamp": "2026-01-02T05:52:43.370051Z",
+        "image": "detections\\PLANT_036.jpg"
+      },
+      {
+        "id": "PLANT_037",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.016,
+        "timestamp": "2026-01-02T05:52:45.387654Z",
+        "image": "detections\\PLANT_037.jpg"
+      },
+      {
+        "id": "PLANT_038",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.021,
+        "timestamp": "2026-01-02T05:52:47.415269Z",
+        "image": "detections\\PLANT_038.jpg"
+      },
+      {
+        "id": "PLANT_039",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.019,
+        "timestamp": "2026-01-02T05:52:49.443250Z",
+        "image": "detections\\PLANT_039.jpg"
+      },
+      {
+        "id": "PLANT_040",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:52:51.471593Z",
+        "image": "detections\\PLANT_040.jpg"
+      },
+      {
+        "id": "PLANT_041",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:52:53.483378Z",
+        "image": "detections\\PLANT_041.jpg"
+      },
+      {
+        "id": "PLANT_042",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:52:55.510933Z",
+        "image": "detections\\PLANT_042.jpg"
+      },
+      {
+        "id": "PLANT_043",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:52:57.548710Z",
+        "image": "detections\\PLANT_043.jpg"
+      },
+      {
+        "id": "PLANT_044",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:52:59.559367Z",
+        "image": "detections\\PLANT_044.jpg"
+      },
+      {
+        "id": "PLANT_045",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:53:01.598605Z",
+        "image": "detections\\PLANT_045.jpg"
+      },
+      {
+        "id": "PLANT_046",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:03.632267Z",
+        "image": "detections\\PLANT_046.jpg"
+      },
+      {
+        "id": "PLANT_047",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:05.658160Z",
+        "image": "detections\\PLANT_047.jpg"
+      },
+      {
+        "id": "PLANT_048",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:07.667400Z",
+        "image": "detections\\PLANT_048.jpg"
+      },
+      {
+        "id": "PLANT_049",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:53:09.681619Z",
+        "image": "detections\\PLANT_049.jpg"
+      },
+      {
+        "id": "PLANT_050",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:11.694729Z",
+        "image": "detections\\PLANT_050.jpg"
+      },
+      {
+        "id": "PLANT_051",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:53:13.710807Z",
+        "image": "detections\\PLANT_051.jpg"
+      },
+      {
+        "id": "PLANT_052",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:15.741596Z",
+        "image": "detections\\PLANT_052.jpg"
+      },
+      {
+        "id": "PLANT_053",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:17.764541Z",
+        "image": "detections\\PLANT_053.jpg"
+      },
+      {
+        "id": "PLANT_054",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:53:19.790939Z",
+        "image": "detections\\PLANT_054.jpg"
+      },
+      {
+        "id": "PLANT_055",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:21.825242Z",
+        "image": "detections\\PLANT_055.jpg"
+      },
+      {
+        "id": "PLANT_056",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:53:23.857853Z",
+        "image": "detections\\PLANT_056.jpg"
+      },
+      {
+        "id": "PLANT_057",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:25.895855Z",
+        "image": "detections\\PLANT_057.jpg"
+      },
+      {
+        "id": "PLANT_058",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.021,
+        "timestamp": "2026-01-02T05:53:27.921881Z",
+        "image": "detections\\PLANT_058.jpg"
+      },
+      {
+        "id": "PLANT_059",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:29.927554Z",
+        "image": "detections\\PLANT_059.jpg"
+      },
+      {
+        "id": "PLANT_060",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.023,
+        "timestamp": "2026-01-02T05:53:31.952472Z",
+        "image": "detections\\PLANT_060.jpg"
+      },
+      {
+        "id": "PLANT_061",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.023,
+        "timestamp": "2026-01-02T05:53:33.988676Z",
+        "image": "detections\\PLANT_061.jpg"
+      },
+      {
+        "id": "PLANT_062",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.023,
+        "timestamp": "2026-01-02T05:53:36.002805Z",
+        "image": "detections\\PLANT_062.jpg"
+      },
+      {
+        "id": "PLANT_063",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:38.037335Z",
+        "image": "detections\\PLANT_063.jpg"
+      },
+      {
+        "id": "PLANT_064",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:40.057722Z",
+        "image": "detections\\PLANT_064.jpg"
+      },
+      {
+        "id": "PLANT_065",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:42.081701Z",
+        "image": "detections\\PLANT_065.jpg"
+      },
+      {
+        "id": "PLANT_066",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:53:44.102874Z",
+        "image": "detections\\PLANT_066.jpg"
+      },
+      {
+        "id": "PLANT_067",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:53:46.135110Z",
+        "image": "detections\\PLANT_067.jpg"
+      },
+      {
+        "id": "PLANT_068",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.023,
+        "timestamp": "2026-01-02T05:53:48.159343Z",
+        "image": "detections\\PLANT_068.jpg"
+      },
+      {
+        "id": "PLANT_069",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.02,
+        "timestamp": "2026-01-02T05:53:50.165846Z",
+        "image": "detections\\PLANT_069.jpg"
+      },
+      {
+        "id": "PLANT_070",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.026,
+        "timestamp": "2026-01-02T05:53:52.199462Z",
+        "image": "detections\\PLANT_070.jpg"
+      },
+      {
+        "id": "PLANT_071",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.026,
+        "timestamp": "2026-01-02T05:53:54.236596Z",
+        "image": "detections\\PLANT_071.jpg"
+      },
+      {
+        "id": "PLANT_072",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.026,
+        "timestamp": "2026-01-02T05:53:56.254110Z",
+        "image": "detections\\PLANT_072.jpg"
+      },
+      {
+        "id": "PLANT_073",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.027,
+        "timestamp": "2026-01-02T05:53:58.275244Z",
+        "image": "detections\\PLANT_073.jpg"
+      },
+      {
+        "id": "PLANT_074",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.029,
+        "timestamp": "2026-01-02T05:54:00.281844Z",
+        "image": "detections\\PLANT_074.jpg"
+      },
+      {
+        "id": "PLANT_075",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.028,
+        "timestamp": "2026-01-02T05:54:02.317681Z",
+        "image": "detections\\PLANT_075.jpg"
+      },
+      {
+        "id": "PLANT_076",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.028,
+        "timestamp": "2026-01-02T05:54:04.332047Z",
+        "image": "detections\\PLANT_076.jpg"
+      },
+      {
+        "id": "PLANT_077",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:54:06.343381Z",
+        "image": "detections\\PLANT_077.jpg"
+      },
+      {
+        "id": "PLANT_078",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.017,
+        "timestamp": "2026-01-02T05:54:08.378215Z",
+        "image": "detections\\PLANT_078.jpg"
+      },
+      {
+        "id": "PLANT_079",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.018,
+        "timestamp": "2026-01-02T05:54:10.409376Z",
+        "image": "detections\\PLANT_079.jpg"
+      },
+      {
+        "id": "PLANT_080",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.02,
+        "timestamp": "2026-01-02T05:54:12.443845Z",
+        "image": "detections\\PLANT_080.jpg"
+      },
+      {
+        "id": "PLANT_081",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.019,
+        "timestamp": "2026-01-02T05:54:14.460371Z",
+        "image": "detections\\PLANT_081.jpg"
+      },
+      {
+        "id": "PLANT_082",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.021,
+        "timestamp": "2026-01-02T05:54:16.476133Z",
+        "image": "detections\\PLANT_082.jpg"
+      },
+      {
+        "id": "PLANT_083",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:54:18.485076Z",
+        "image": "detections\\PLANT_083.jpg"
+      },
+      {
+        "id": "PLANT_084",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:54:20.489619Z",
+        "image": "detections\\PLANT_084.jpg"
+      },
+      {
+        "id": "PLANT_085",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:54:22.507044Z",
+        "image": "detections\\PLANT_085.jpg"
+      },
+      {
+        "id": "PLANT_086",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.023,
+        "timestamp": "2026-01-02T05:54:24.530372Z",
+        "image": "detections\\PLANT_086.jpg"
+      },
+      {
+        "id": "PLANT_087",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:54:26.551697Z",
+        "image": "detections\\PLANT_087.jpg"
+      },
+      {
+        "id": "PLANT_088",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:54:28.559176Z",
+        "image": "detections\\PLANT_088.jpg"
+      },
+      {
+        "id": "PLANT_089",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T05:54:30.574487Z",
+        "image": "detections\\PLANT_089.jpg"
+      },
+      {
+        "id": "PLANT_090",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.023,
+        "timestamp": "2026-01-02T05:54:32.609151Z",
+        "image": "detections\\PLANT_090.jpg"
+      },
+      {
+        "id": "PLANT_091",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.023,
+        "timestamp": "2026-01-02T05:54:34.642944Z",
+        "image": "detections\\PLANT_091.jpg"
+      },
+      {
+        "id": "PLANT_092",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:54:36.651962Z",
+        "image": "detections\\PLANT_092.jpg"
+      },
+      {
+        "id": "PLANT_093",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:54:38.687983Z",
+        "image": "detections\\PLANT_093.jpg"
+      },
+      {
+        "id": "PLANT_094",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:54:40.716465Z",
+        "image": "detections\\PLANT_094.jpg"
+      },
+      {
+        "id": "PLANT_095",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.026,
+        "timestamp": "2026-01-02T05:54:42.736876Z",
+        "image": "detections\\PLANT_095.jpg"
+      },
+      {
+        "id": "PLANT_096",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.026,
+        "timestamp": "2026-01-02T05:54:44.745400Z",
+        "image": "detections\\PLANT_096.jpg"
+      },
+      {
+        "id": "PLANT_097",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.026,
+        "timestamp": "2026-01-02T05:54:46.760808Z",
+        "image": "detections\\PLANT_097.jpg"
+      },
+      {
+        "id": "PLANT_098",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T05:54:48.780682Z",
+        "image": "detections\\PLANT_098.jpg"
+      },
+      {
+        "id": "PLANT_099",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T05:54:50.818880Z",
+        "image": "detections\\PLANT_099.jpg"
+      },
+      {
+        "id": "PLANT_100",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.026,
+        "timestamp": "2026-01-02T05:54:52.829327Z",
+        "image": "detections\\PLANT_100.jpg"
+      },
+      {
+        "id": "PLANT_101",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.026,
+        "timestamp": "2026-01-02T05:54:54.847199Z",
+        "image": "detections\\PLANT_101.jpg"
+      },
+      {
+        "id": "PLANT_102",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.027,
+        "timestamp": "2026-01-02T05:54:56.885054Z",
+        "image": "detections\\PLANT_102.jpg"
+      },
+      {
+        "id": "PLANT_103",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.026,
+        "timestamp": "2026-01-02T05:54:58.895504Z",
+        "image": "detections\\PLANT_103.jpg"
+      },
+      {
+        "id": "PLANT_104",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.019,
+        "timestamp": "2026-01-02T05:55:00.925554Z",
+        "image": "detections\\PLANT_104.jpg"
+      },
+      {
+        "id": "PLANT_105",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.029,
+        "timestamp": "2026-01-02T05:55:02.935898Z",
+        "image": "detections\\PLANT_105.jpg"
+      },
+      {
+        "id": "PLANT_106",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.017,
+        "timestamp": "2026-01-02T05:55:04.947823Z",
+        "image": "detections\\PLANT_106.jpg"
+      },
+      {
+        "id": "PLANT_107",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.029,
+        "timestamp": "2026-01-02T05:55:06.961616Z",
+        "image": "detections\\PLANT_107.jpg"
+      },
+      {
+        "id": "PLANT_108",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:08.989803Z",
+        "image": "detections\\PLANT_108.jpg"
+      },
+      {
+        "id": "PLANT_109",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.053,
+        "timestamp": "2026-01-02T05:55:11.012466Z",
+        "image": "detections\\PLANT_109.jpg"
+      },
+      {
+        "id": "PLANT_110",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.038,
+        "timestamp": "2026-01-02T05:55:13.031892Z",
+        "image": "detections\\PLANT_110.jpg"
+      },
+      {
+        "id": "PLANT_111",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.039,
+        "timestamp": "2026-01-02T05:55:15.060655Z",
+        "image": "detections\\PLANT_111.jpg"
+      },
+      {
+        "id": "PLANT_112",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.03,
+        "timestamp": "2026-01-02T05:55:17.089021Z",
+        "image": "detections\\PLANT_112.jpg"
+      },
+      {
+        "id": "PLANT_113",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.033,
+        "timestamp": "2026-01-02T05:55:19.106516Z",
+        "image": "detections\\PLANT_113.jpg"
+      },
+      {
+        "id": "PLANT_114",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.035,
+        "timestamp": "2026-01-02T05:55:21.136026Z",
+        "image": "detections\\PLANT_114.jpg"
+      },
+      {
+        "id": "PLANT_115",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.03,
+        "timestamp": "2026-01-02T05:55:23.156151Z",
+        "image": "detections\\PLANT_115.jpg"
+      },
+      {
+        "id": "PLANT_116",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:25.175028Z",
+        "image": "detections\\PLANT_116.jpg"
+      },
+      {
+        "id": "PLANT_117",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:27.188690Z",
+        "image": "detections\\PLANT_117.jpg"
+      },
+      {
+        "id": "PLANT_118",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:29.219868Z",
+        "image": "detections\\PLANT_118.jpg"
+      },
+      {
+        "id": "PLANT_119",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:31.241604Z",
+        "image": "detections\\PLANT_119.jpg"
+      },
+      {
+        "id": "PLANT_120",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:33.258190Z",
+        "image": "detections\\PLANT_120.jpg"
+      },
+      {
+        "id": "PLANT_121",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:35.268923Z",
+        "image": "detections\\PLANT_121.jpg"
+      },
+      {
+        "id": "PLANT_122",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:37.303134Z",
+        "image": "detections\\PLANT_122.jpg"
+      },
+      {
+        "id": "PLANT_123",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:39.332914Z",
+        "image": "detections\\PLANT_123.jpg"
+      },
+      {
+        "id": "PLANT_124",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:41.354792Z",
+        "image": "detections\\PLANT_124.jpg"
+      },
+      {
+        "id": "PLANT_125",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:43.392080Z",
+        "image": "detections\\PLANT_125.jpg"
+      },
+      {
+        "id": "PLANT_126",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:45.432063Z",
+        "image": "detections\\PLANT_126.jpg"
+      },
+      {
+        "id": "PLANT_127",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:47.465302Z",
+        "image": "detections\\PLANT_127.jpg"
+      },
+      {
+        "id": "PLANT_128",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:49.496704Z",
+        "image": "detections\\PLANT_128.jpg"
+      },
+      {
+        "id": "PLANT_129",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:51.527131Z",
+        "image": "detections\\PLANT_129.jpg"
+      },
+      {
+        "id": "PLANT_130",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:53.559053Z",
+        "image": "detections\\PLANT_130.jpg"
+      },
+      {
+        "id": "PLANT_131",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:55.597197Z",
+        "image": "detections\\PLANT_131.jpg"
+      },
+      {
+        "id": "PLANT_132",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:57.630578Z",
+        "image": "detections\\PLANT_132.jpg"
+      },
+      {
+        "id": "PLANT_133",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:55:59.658368Z",
+        "image": "detections\\PLANT_133.jpg"
+      },
+      {
+        "id": "PLANT_134",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:01.689747Z",
+        "image": "detections\\PLANT_134.jpg"
+      },
+      {
+        "id": "PLANT_135",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:03.723505Z",
+        "image": "detections\\PLANT_135.jpg"
+      },
+      {
+        "id": "PLANT_136",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:05.756574Z",
+        "image": "detections\\PLANT_136.jpg"
+      },
+      {
+        "id": "PLANT_137",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:07.790818Z",
+        "image": "detections\\PLANT_137.jpg"
+      },
+      {
+        "id": "PLANT_138",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:09.822586Z",
+        "image": "detections\\PLANT_138.jpg"
+      },
+      {
+        "id": "PLANT_139",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:11.836860Z",
+        "image": "detections\\PLANT_139.jpg"
+      },
+      {
+        "id": "PLANT_140",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:13.871961Z",
+        "image": "detections\\PLANT_140.jpg"
+      },
+      {
+        "id": "PLANT_141",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:15.896001Z",
+        "image": "detections\\PLANT_141.jpg"
+      },
+      {
+        "id": "PLANT_142",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:17.935016Z",
+        "image": "detections\\PLANT_142.jpg"
+      },
+      {
+        "id": "PLANT_143",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:19.968300Z",
+        "image": "detections\\PLANT_143.jpg"
+      },
+      {
+        "id": "PLANT_144",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:22.002054Z",
+        "image": "detections\\PLANT_144.jpg"
+      },
+      {
+        "id": "PLANT_145",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:24.032746Z",
+        "image": "detections\\PLANT_145.jpg"
+      },
+      {
+        "id": "PLANT_146",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:26.066030Z",
+        "image": "detections\\PLANT_146.jpg"
+      },
+      {
+        "id": "PLANT_147",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:28.102971Z",
+        "image": "detections\\PLANT_147.jpg"
+      },
+      {
+        "id": "PLANT_148",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:30.133177Z",
+        "image": "detections\\PLANT_148.jpg"
+      },
+      {
+        "id": "PLANT_149",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:32.167237Z",
+        "image": "detections\\PLANT_149.jpg"
+      },
+      {
+        "id": "PLANT_150",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:34.199894Z",
+        "image": "detections\\PLANT_150.jpg"
+      },
+      {
+        "id": "PLANT_151",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:36.230708Z",
+        "image": "detections\\PLANT_151.jpg"
+      },
+      {
+        "id": "PLANT_152",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:38.265320Z",
+        "image": "detections\\PLANT_152.jpg"
+      },
+      {
+        "id": "PLANT_153",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:40.286715Z",
+        "image": "detections\\PLANT_153.jpg"
+      },
+      {
+        "id": "PLANT_154",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:42.293665Z",
+        "image": "detections\\PLANT_154.jpg"
+      },
+      {
+        "id": "PLANT_155",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:44.313311Z",
+        "image": "detections\\PLANT_155.jpg"
+      },
+      {
+        "id": "PLANT_156",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:46.343394Z",
+        "image": "detections\\PLANT_156.jpg"
+      },
+      {
+        "id": "PLANT_157",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:48.378949Z",
+        "image": "detections\\PLANT_157.jpg"
+      },
+      {
+        "id": "PLANT_158",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:50.400068Z",
+        "image": "detections\\PLANT_158.jpg"
+      },
+      {
+        "id": "PLANT_159",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:52.441348Z",
+        "image": "detections\\PLANT_159.jpg"
+      },
+      {
+        "id": "PLANT_160",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:54.474723Z",
+        "image": "detections\\PLANT_160.jpg"
+      },
+      {
+        "id": "PLANT_161",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:56.505940Z",
+        "image": "detections\\PLANT_161.jpg"
+      },
+      {
+        "id": "PLANT_162",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:56:58.539198Z",
+        "image": "detections\\PLANT_162.jpg"
+      },
+      {
+        "id": "PLANT_163",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:00.560604Z",
+        "image": "detections\\PLANT_163.jpg"
+      },
+      {
+        "id": "PLANT_164",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:02.587543Z",
+        "image": "detections\\PLANT_164.jpg"
+      },
+      {
+        "id": "PLANT_165",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:04.621396Z",
+        "image": "detections\\PLANT_165.jpg"
+      },
+      {
+        "id": "PLANT_166",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:06.653952Z",
+        "image": "detections\\PLANT_166.jpg"
+      },
+      {
+        "id": "PLANT_167",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:08.686535Z",
+        "image": "detections\\PLANT_167.jpg"
+      },
+      {
+        "id": "PLANT_168",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:10.720396Z",
+        "image": "detections\\PLANT_168.jpg"
+      },
+      {
+        "id": "PLANT_169",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:12.754213Z",
+        "image": "detections\\PLANT_169.jpg"
+      },
+      {
+        "id": "PLANT_170",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:14.788366Z",
+        "image": "detections\\PLANT_170.jpg"
+      },
+      {
+        "id": "PLANT_171",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:16.815245Z",
+        "image": "detections\\PLANT_171.jpg"
+      },
+      {
+        "id": "PLANT_172",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:18.855024Z",
+        "image": "detections\\PLANT_172.jpg"
+      },
+      {
+        "id": "PLANT_173",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:20.867265Z",
+        "image": "detections\\PLANT_173.jpg"
+      },
+      {
+        "id": "PLANT_174",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:22.897982Z",
+        "image": "detections\\PLANT_174.jpg"
+      },
+      {
+        "id": "PLANT_175",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:24.933524Z",
+        "image": "detections\\PLANT_175.jpg"
+      },
+      {
+        "id": "PLANT_176",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:26.949999Z",
+        "image": "detections\\PLANT_176.jpg"
+      },
+      {
+        "id": "PLANT_177",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:28.973397Z",
+        "image": "detections\\PLANT_177.jpg"
+      },
+      {
+        "id": "PLANT_178",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:30.983685Z",
+        "image": "detections\\PLANT_178.jpg"
+      },
+      {
+        "id": "PLANT_179",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:33.013440Z",
+        "image": "detections\\PLANT_179.jpg"
+      },
+      {
+        "id": "PLANT_180",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:35.044214Z",
+        "image": "detections\\PLANT_180.jpg"
+      },
+      {
+        "id": "PLANT_181",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:37.052192Z",
+        "image": "detections\\PLANT_181.jpg"
+      },
+      {
+        "id": "PLANT_182",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:39.061920Z",
+        "image": "detections\\PLANT_182.jpg"
+      },
+      {
+        "id": "PLANT_183",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:41.080602Z",
+        "image": "detections\\PLANT_183.jpg"
+      },
+      {
+        "id": "PLANT_184",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:43.111685Z",
+        "image": "detections\\PLANT_184.jpg"
+      },
+      {
+        "id": "PLANT_185",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:45.144246Z",
+        "image": "detections\\PLANT_185.jpg"
+      },
+      {
+        "id": "PLANT_186",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.032,
+        "timestamp": "2026-01-02T05:57:47.158649Z",
+        "image": "detections\\PLANT_186.jpg"
+      },
+      {
+        "id": "PLANT_187",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.016,
+        "timestamp": "2026-01-02T06:06:38.871109Z",
+        "image": "detections\\PLANT_187.jpg"
+      },
+      {
+        "id": "PLANT_188",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.01,
+        "timestamp": "2026-01-02T06:06:40.987512Z",
+        "image": "detections\\PLANT_188.jpg"
+      },
+      {
+        "id": "PLANT_189",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:06:45.592931Z",
+        "image": "detections\\PLANT_189.jpg"
+      },
+      {
+        "id": "PLANT_190",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.015,
+        "timestamp": "2026-01-02T06:06:47.619858Z",
+        "image": "detections\\PLANT_190.jpg"
+      },
+      {
+        "id": "PLANT_191",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.017,
+        "timestamp": "2026-01-02T06:06:49.625488Z",
+        "image": "detections\\PLANT_191.jpg"
+      },
+      {
+        "id": "PLANT_192",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.028,
+        "timestamp": "2026-01-02T06:06:51.658300Z",
+        "image": "detections\\PLANT_192.jpg"
+      },
+      {
+        "id": "PLANT_193",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.093,
+        "timestamp": "2026-01-02T06:06:53.672215Z",
+        "image": "detections\\PLANT_193.jpg"
+      },
+      {
+        "id": "PLANT_194",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T06:06:55.686134Z",
+        "image": "detections\\PLANT_194.jpg"
+      },
+      {
+        "id": "PLANT_195",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:06:58.282224Z",
+        "image": "detections\\PLANT_195.jpg"
+      },
+      {
+        "id": "PLANT_196",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.01,
+        "timestamp": "2026-01-02T06:07:00.347665Z",
+        "image": "detections\\PLANT_196.jpg"
+      },
+      {
+        "id": "PLANT_197",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.021,
+        "timestamp": "2026-01-02T06:07:02.383281Z",
+        "image": "detections\\PLANT_197.jpg"
+      },
+      {
+        "id": "PLANT_198",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T06:07:04.411794Z",
+        "image": "detections\\PLANT_198.jpg"
+      },
+      {
+        "id": "PLANT_199",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.02,
+        "timestamp": "2026-01-02T06:07:06.428355Z",
+        "image": "detections\\PLANT_199.jpg"
+      },
+      {
+        "id": "PLANT_200",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.02,
+        "timestamp": "2026-01-02T06:07:08.437735Z",
+        "image": "detections\\PLANT_200.jpg"
+      },
+      {
+        "id": "PLANT_201",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.02,
+        "timestamp": "2026-01-02T06:07:10.474195Z",
+        "image": "detections\\PLANT_201.jpg"
+      },
+      {
+        "id": "PLANT_202",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T06:07:12.930727Z",
+        "image": "detections\\PLANT_202.jpg"
+      },
+      {
+        "id": "PLANT_203",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.018,
+        "timestamp": "2026-01-02T06:07:14.946280Z",
+        "image": "detections\\PLANT_203.jpg"
+      },
+      {
+        "id": "PLANT_204",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.038,
+        "timestamp": "2026-01-02T06:07:16.963254Z",
+        "image": "detections\\PLANT_204.jpg"
+      },
+      {
+        "id": "PLANT_205",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.022,
+        "timestamp": "2026-01-02T06:07:18.994053Z",
+        "image": "detections\\PLANT_205.jpg"
+      },
+      {
+        "id": "PLANT_206",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:07:21.442842Z",
+        "image": "detections\\PLANT_206.jpg"
+      },
+      {
+        "id": "PLANT_207",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T06:07:23.482240Z",
+        "image": "detections\\PLANT_207.jpg"
+      },
+      {
+        "id": "PLANT_208",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.017,
+        "timestamp": "2026-01-02T06:07:25.491586Z",
+        "image": "detections\\PLANT_208.jpg"
+      },
+      {
+        "id": "PLANT_209",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.017,
+        "timestamp": "2026-01-02T06:07:27.623463Z",
+        "image": "detections\\PLANT_209.jpg"
+      },
+      {
+        "id": "PLANT_210",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:07:29.648846Z",
+        "image": "detections\\PLANT_210.jpg"
+      },
+      {
+        "id": "PLANT_211",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.016,
+        "timestamp": "2026-01-02T06:07:31.656432Z",
+        "image": "detections\\PLANT_211.jpg"
+      },
+      {
+        "id": "PLANT_212",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:07:33.692190Z",
+        "image": "detections\\PLANT_212.jpg"
+      },
+      {
+        "id": "PLANT_213",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:08:23.624934Z",
+        "image": "detections\\PLANT_213.jpg"
+      },
+      {
+        "id": "PLANT_214",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.016,
+        "timestamp": "2026-01-02T06:08:25.639701Z",
+        "image": "detections\\PLANT_214.jpg"
+      },
+      {
+        "id": "PLANT_215",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:08:33.457620Z",
+        "image": "detections\\PLANT_215.jpg"
+      },
+      {
+        "id": "PLANT_216",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:08:36.748588Z",
+        "image": "detections\\PLANT_216.jpg"
+      },
+      {
+        "id": "PLANT_217",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.01,
+        "timestamp": "2026-01-02T06:08:45.611703Z",
+        "image": "detections\\PLANT_217.jpg"
+      },
+      {
+        "id": "PLANT_218",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.017,
+        "timestamp": "2026-01-02T06:08:47.942183Z",
+        "image": "detections\\PLANT_218.jpg"
+      },
+      {
+        "id": "PLANT_219",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:08:50.505776Z",
+        "image": "detections\\PLANT_219.jpg"
+      },
+      {
+        "id": "PLANT_220",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:08:52.527976Z",
+        "image": "detections\\PLANT_220.jpg"
+      },
+      {
+        "id": "PLANT_221",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:08:54.812805Z",
+        "image": "detections\\PLANT_221.jpg"
+      },
+      {
+        "id": "PLANT_222",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T06:08:56.831899Z",
+        "image": "detections\\PLANT_222.jpg"
+      },
+      {
+        "id": "PLANT_223",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:08:58.845500Z",
+        "image": "detections\\PLANT_223.jpg"
+      },
+      {
+        "id": "PLANT_224",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:09:00.853579Z",
+        "image": "detections\\PLANT_224.jpg"
+      },
+      {
+        "id": "PLANT_225",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:09:02.864888Z",
+        "image": "detections\\PLANT_225.jpg"
+      },
+      {
+        "id": "PLANT_226",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.019,
+        "timestamp": "2026-01-02T06:09:04.897745Z",
+        "image": "detections\\PLANT_226.jpg"
+      },
+      {
+        "id": "PLANT_227",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.042,
+        "timestamp": "2026-01-02T06:09:06.905781Z",
+        "image": "detections\\PLANT_227.jpg"
+      },
+      {
+        "id": "PLANT_228",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.012,
+        "timestamp": "2026-01-02T06:09:08.915261Z",
+        "image": "detections\\PLANT_228.jpg"
+      },
+      {
+        "id": "PLANT_229",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.019,
+        "timestamp": "2026-01-02T06:09:10.947057Z",
+        "image": "detections\\PLANT_229.jpg"
+      },
+      {
+        "id": "PLANT_230",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:09:12.984964Z",
+        "image": "detections\\PLANT_230.jpg"
+      },
+      {
+        "id": "PLANT_231",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:09:15.317419Z",
+        "image": "detections\\PLANT_231.jpg"
+      },
+      {
+        "id": "PLANT_232",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:09:17.447871Z",
+        "image": "detections\\PLANT_232.jpg"
+      },
+      {
+        "id": "PLANT_233",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.036,
+        "timestamp": "2026-01-02T06:09:19.473459Z",
+        "image": "detections\\PLANT_233.jpg"
+      },
+      {
+        "id": "PLANT_234",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.046,
+        "timestamp": "2026-01-02T06:09:21.497746Z",
+        "image": "detections\\PLANT_234.jpg"
+      },
+      {
+        "id": "PLANT_235",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.058,
+        "timestamp": "2026-01-02T06:09:23.510145Z",
+        "image": "detections\\PLANT_235.jpg"
+      },
+      {
+        "id": "PLANT_236",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:09:32.975308Z",
+        "image": "detections\\PLANT_236.jpg"
+      },
+      {
+        "id": "PLANT_237",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.018,
+        "timestamp": "2026-01-02T06:09:35.006608Z",
+        "image": "detections\\PLANT_237.jpg"
+      },
+      {
+        "id": "PLANT_238",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.019,
+        "timestamp": "2026-01-02T06:09:37.039794Z",
+        "image": "detections\\PLANT_238.jpg"
+      },
+      {
+        "id": "PLANT_239",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.052,
+        "timestamp": "2026-01-02T06:09:39.066811Z",
+        "image": "detections\\PLANT_239.jpg"
+      },
+      {
+        "id": "PLANT_240",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:09:42.235801Z",
+        "image": "detections\\PLANT_240.jpg"
+      },
+      {
+        "id": "PLANT_241",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.015,
+        "timestamp": "2026-01-02T06:09:44.700602Z",
+        "image": "detections\\PLANT_241.jpg"
+      },
+      {
+        "id": "PLANT_242",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.02,
+        "timestamp": "2026-01-02T06:09:46.730910Z",
+        "image": "detections\\PLANT_242.jpg"
+      },
+      {
+        "id": "PLANT_243",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.017,
+        "timestamp": "2026-01-02T06:09:48.740262Z",
+        "image": "detections\\PLANT_243.jpg"
+      },
+      {
+        "id": "PLANT_244",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:09:50.777208Z",
+        "image": "detections\\PLANT_244.jpg"
+      },
+      {
+        "id": "PLANT_245",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.015,
+        "timestamp": "2026-01-02T06:09:52.815016Z",
+        "image": "detections\\PLANT_245.jpg"
+      },
+      {
+        "id": "PLANT_246",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.018,
+        "timestamp": "2026-01-02T06:09:54.833114Z",
+        "image": "detections\\PLANT_246.jpg"
+      },
+      {
+        "id": "PLANT_247",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.019,
+        "timestamp": "2026-01-02T06:09:56.850680Z",
+        "image": "detections\\PLANT_247.jpg"
+      },
+      {
+        "id": "PLANT_248",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:10:14.456629Z",
+        "image": "detections\\PLANT_248.jpg"
+      },
+      {
+        "id": "PLANT_249",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T06:10:16.465503Z",
+        "image": "detections\\PLANT_249.jpg"
+      },
+      {
+        "id": "PLANT_250",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T06:10:18.480158Z",
+        "image": "detections\\PLANT_250.jpg"
+      },
+      {
+        "id": "PLANT_251",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.025,
+        "timestamp": "2026-01-02T06:10:20.493295Z",
+        "image": "detections\\PLANT_251.jpg"
+      },
+      {
+        "id": "PLANT_252",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.023,
+        "timestamp": "2026-01-02T06:10:22.501176Z",
+        "image": "detections\\PLANT_252.jpg"
+      },
+      {
+        "id": "PLANT_253",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.024,
+        "timestamp": "2026-01-02T06:10:24.512810Z",
+        "image": "detections\\PLANT_253.jpg"
+      },
+      {
+        "id": "PLANT_254",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.012,
+        "timestamp": "2026-01-02T06:10:52.985687Z",
+        "image": "detections\\PLANT_254.jpg"
+      },
+      {
+        "id": "PLANT_255",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.042,
+        "timestamp": "2026-01-02T06:10:55.001137Z",
+        "image": "detections\\PLANT_255.jpg"
+      },
+      {
+        "id": "PLANT_256",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.033,
+        "timestamp": "2026-01-02T06:10:57.043635Z",
+        "image": "detections\\PLANT_256.jpg"
+      },
+      {
+        "id": "PLANT_257",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.017,
+        "timestamp": "2026-01-02T06:11:17.057062Z",
+        "image": "detections\\PLANT_257.jpg"
+      },
+      {
+        "id": "PLANT_258",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.015,
+        "timestamp": "2026-01-02T06:11:39.209103Z",
+        "image": "detections\\PLANT_258.jpg"
+      },
+      {
+        "id": "PLANT_259",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.019,
+        "timestamp": "2026-01-02T06:11:41.306804Z",
+        "image": "detections\\PLANT_259.jpg"
+      },
+      {
+        "id": "PLANT_260",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.012,
+        "timestamp": "2026-01-02T06:11:43.539972Z",
+        "image": "detections\\PLANT_260.jpg"
+      },
+      {
+        "id": "PLANT_261",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.01,
+        "timestamp": "2026-01-02T06:12:23.970522Z",
+        "image": "detections\\PLANT_261.jpg"
+      },
+      {
+        "id": "PLANT_262",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.03,
+        "timestamp": "2026-01-02T06:12:25.997638Z",
+        "image": "detections\\PLANT_262.jpg"
+      },
+      {
+        "id": "PLANT_263",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.031,
+        "timestamp": "2026-01-02T06:12:28.031102Z",
+        "image": "detections\\PLANT_263.jpg"
+      },
+      {
+        "id": "PLANT_264",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.021,
+        "timestamp": "2026-01-02T06:12:30.048143Z",
+        "image": "detections\\PLANT_264.jpg"
+      },
+      {
+        "id": "PLANT_265",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:12:33.183736Z",
+        "image": "detections\\PLANT_265.jpg"
+      },
+      {
+        "id": "PLANT_266",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:12:35.209659Z",
+        "image": "detections\\PLANT_266.jpg"
+      },
+      {
+        "id": "PLANT_267",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:12:37.224189Z",
+        "image": "detections\\PLANT_267.jpg"
+      },
+      {
+        "id": "PLANT_268",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:12:39.239443Z",
+        "image": "detections\\PLANT_268.jpg"
+      },
+      {
+        "id": "PLANT_269",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:12:41.262311Z",
+        "image": "detections\\PLANT_269.jpg"
+      },
+      {
+        "id": "PLANT_270",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:12:43.281180Z",
+        "image": "detections\\PLANT_270.jpg"
+      },
+      {
+        "id": "PLANT_271",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:12:45.306516Z",
+        "image": "detections\\PLANT_271.jpg"
+      },
+      {
+        "id": "PLANT_272",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:12:47.329313Z",
+        "image": "detections\\PLANT_272.jpg"
+      },
+      {
+        "id": "PLANT_273",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:12:49.352803Z",
+        "image": "detections\\PLANT_273.jpg"
+      },
+      {
+        "id": "PLANT_274",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.012,
+        "timestamp": "2026-01-02T06:12:51.377458Z",
+        "image": "detections\\PLANT_274.jpg"
+      },
+      {
+        "id": "PLANT_275",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.012,
+        "timestamp": "2026-01-02T06:12:53.404145Z",
+        "image": "detections\\PLANT_275.jpg"
+      },
+      {
+        "id": "PLANT_276",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.012,
+        "timestamp": "2026-01-02T06:12:55.437421Z",
+        "image": "detections\\PLANT_276.jpg"
+      },
+      {
+        "id": "PLANT_277",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.012,
+        "timestamp": "2026-01-02T06:12:57.461439Z",
+        "image": "detections\\PLANT_277.jpg"
+      },
+      {
+        "id": "PLANT_278",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.012,
+        "timestamp": "2026-01-02T06:12:59.483401Z",
+        "image": "detections\\PLANT_278.jpg"
+      },
+      {
+        "id": "PLANT_279",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:13:01.508118Z",
+        "image": "detections\\PLANT_279.jpg"
+      },
+      {
+        "id": "PLANT_280",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:13:03.538194Z",
+        "image": "detections\\PLANT_280.jpg"
+      },
+      {
+        "id": "PLANT_281",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:13:05.567824Z",
+        "image": "detections\\PLANT_281.jpg"
+      },
+      {
+        "id": "PLANT_282",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:13:07.592342Z",
+        "image": "detections\\PLANT_282.jpg"
+      },
+      {
+        "id": "PLANT_283",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:13:09.619427Z",
+        "image": "detections\\PLANT_283.jpg"
+      },
+      {
+        "id": "PLANT_284",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:13:11.647788Z",
+        "image": "detections\\PLANT_284.jpg"
+      },
+      {
+        "id": "PLANT_285",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:13:13.682865Z",
+        "image": "detections\\PLANT_285.jpg"
+      },
+      {
+        "id": "PLANT_286",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:13:15.719835Z",
+        "image": "detections\\PLANT_286.jpg"
+      },
+      {
+        "id": "PLANT_287",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:13:17.753153Z",
+        "image": "detections\\PLANT_287.jpg"
+      },
+      {
+        "id": "PLANT_288",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:13:19.780689Z",
+        "image": "detections\\PLANT_288.jpg"
+      },
+      {
+        "id": "PLANT_289",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:13:21.808584Z",
+        "image": "detections\\PLANT_289.jpg"
+      },
+      {
+        "id": "PLANT_290",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:13:23.835206Z",
+        "image": "detections\\PLANT_290.jpg"
+      },
+      {
+        "id": "PLANT_291",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:13:25.868448Z",
+        "image": "detections\\PLANT_291.jpg"
+      },
+      {
+        "id": "PLANT_292",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:13:27.897351Z",
+        "image": "detections\\PLANT_292.jpg"
+      },
+      {
+        "id": "PLANT_293",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:13:29.930895Z",
+        "image": "detections\\PLANT_293.jpg"
+      },
+      {
+        "id": "PLANT_294",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:13:31.960893Z",
+        "image": "detections\\PLANT_294.jpg"
+      },
+      {
+        "id": "PLANT_295",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:13:33.986854Z",
+        "image": "detections\\PLANT_295.jpg"
+      },
+      {
+        "id": "PLANT_296",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.014,
+        "timestamp": "2026-01-02T06:13:36.015533Z",
+        "image": "detections\\PLANT_296.jpg"
+      },
+      {
+        "id": "PLANT_297",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:13:38.034851Z",
+        "image": "detections\\PLANT_297.jpg"
+      },
+      {
+        "id": "PLANT_298",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.013,
+        "timestamp": "2026-01-02T06:13:40.064178Z",
+        "image": "detections\\PLANT_298.jpg"
+      },
+      {
+        "id": "PLANT_299",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.01,
+        "timestamp": "2026-01-02T06:13:42.757317Z",
+        "image": "detections\\PLANT_299.jpg"
+      },
+      {
+        "id": "PLANT_300",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.012,
+        "timestamp": "2026-01-02T06:13:44.786135Z",
+        "image": "detections\\PLANT_300.jpg"
+      },
+      {
+        "id": "PLANT_301",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:13:46.818446Z",
+        "image": "detections\\PLANT_301.jpg"
+      },
+      {
+        "id": "PLANT_302",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:13:48.846149Z",
+        "image": "detections\\PLANT_302.jpg"
+      },
+      {
+        "id": "PLANT_303",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:13:50.877750Z",
+        "image": "detections\\PLANT_303.jpg"
+      },
+      {
+        "id": "PLANT_304",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:13:52.899978Z",
+        "image": "detections\\PLANT_304.jpg"
+      },
+      {
+        "id": "PLANT_305",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:13:54.927587Z",
+        "image": "detections\\PLANT_305.jpg"
+      },
+      {
+        "id": "PLANT_306",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:13:56.955474Z",
+        "image": "detections\\PLANT_306.jpg"
+      },
+      {
+        "id": "PLANT_307",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:13:58.978908Z",
+        "image": "detections\\PLANT_307.jpg"
+      },
+      {
+        "id": "PLANT_308",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:14:01.003292Z",
+        "image": "detections\\PLANT_308.jpg"
+      },
+      {
+        "id": "PLANT_309",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "altitude_rel": 0.0,
+        "confidence": 0.011,
+        "timestamp": "2026-01-02T06:14:03.030581Z",
+        "image": "detections\\PLANT_309.jpg"
       }
     ]
   }

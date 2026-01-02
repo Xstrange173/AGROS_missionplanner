@@ -39,6 +39,8 @@ class Scanner:
         self.latitude = 0.0
         self.longitude = 0.0
         self.altitude_rel = 0.0
+        self.gps_fix_type = 0
+        self.gps_satellites = 0
         
         # HSV Thresholds (Default Yellow)
         self.hsv_min = np.array([20, 80, 80])
@@ -126,14 +128,18 @@ class Scanner:
                         # Let's link it to master existence.
                         if not self.master: break
                         try:
-                            msg = self.master.recv_match(type=['GLOBAL_POSITION_INT', 'HEARTBEAT'], blocking=True, timeout=1)
+                            msg = self.master.recv_match(type=['GLOBAL_POSITION_INT', 'HEARTBEAT', 'GPS_RAW_INT'], blocking=True, timeout=1)
                             if msg:
                                 self.last_heartbeat = time.time()
                                 self.mavlink_connected = True
-                                if msg.get_type() == 'GLOBAL_POSITION_INT':
+                                msg_type = msg.get_type()
+                                if msg_type == 'GLOBAL_POSITION_INT':
                                     self.latitude = msg.lat / 1e7
                                     self.longitude = msg.lon / 1e7
                                     self.altitude_rel = msg.relative_alt / 1000.0
+                                elif msg_type == 'GPS_RAW_INT':
+                                    self.gps_fix_type = msg.fix_type
+                                    self.gps_satellites = msg.satellites_visible
                             else:
                                 if time.time() - self.last_heartbeat > 5:
                                     self.mavlink_connected = False
@@ -157,7 +163,9 @@ class Scanner:
         return {
             "lat": self.latitude,
             "lon": self.longitude,
-            "alt": self.altitude_rel
+            "alt": self.altitude_rel,
+            "fix": self.gps_fix_type,
+            "sats": self.gps_satellites
         }
 
     def detect_yellow(self, frame):
